@@ -29,7 +29,6 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -46,7 +45,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -147,7 +145,6 @@ public class MainActivity extends AppCompatActivity
                             }
                         });
                 reqQueue.add(jsonArrayRequest);
-
             }
 
             public void afterTextChanged(Editable editable)
