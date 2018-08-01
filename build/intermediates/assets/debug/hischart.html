@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="http://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    
+    <script>
+        var url = $(location).attr('href');
+        var symbolIndex=url.indexOf("?s=");
+        var symbolVal=url.substring(symbolIndex+3);
+        
+        function ErrorMessage(divId, dataName)
+        {
+            $(divId).empty();
+            var errorContent="<div style=\"margin-top:45%; margin-bottom:45%; text-align:center;\"><h3>Error! Failed to get " + dataName + " data.</h3></div>";
+            $(divId).append(errorContent);
+        }
+        
+        function GetUtcDate(dateIn) 
+        {
+            var dat = new Date(dateIn);
+            return Date.UTC(dat.getFullYear(), dat.getMonth(), dat.getDate());
+        }
+       
+            $.ajax({
+            url: 'http://myapplication-env.us-west-1.elasticbeanstalk.com',
+            data: { hisChartSymbol: symbolVal },
+            type: 'GET',
+            success: function(response, status, xhr){
+                var jsonObj;
+                try{
+                    jsonObj = JSON.parse(response);
+                }
+                catch(err){
+                    ErrorMessage('#HistoricalChart', 'Historical Chart');
+                    return;
+                }
+                
+                var datesArray=[];
+                var pricesArray=[];
+            
+                var revDatesArray=[];
+                var revPricesArray=[];
+                
+                if(jsonObj['Time Series (Daily)']==null)
+                {
+                    ErrorMessage('#HistoricalChart', 'Historical Chart');
+                    return;
+                }
+                
+                try
+                {
+                    var i =0;
+                    $.each(jsonObj['Time Series (Daily)'], function (item, value) 
+                    {
+                        var dateVal=(item.split(' '))[0];
+                        var date = new Date(dateVal);
+                        var dd = date.getDate()+1;
+                        var mm = date.getMonth()+1; //January is 0!
+                        var yy = date.getFullYear();
+                        
+                        if(dd==32)
+                        {
+                            dd=1;
+                            if(mm==12)
+                            {
+                                mm=1;
+                            }
+                            else
+                            {
+                                mm=mm+1;
+                            }
+                        }
+
+                        if(dd<10) 
+                        {
+                            dd = '0'+dd;
+                        }
+                        if(mm<10) 
+                        {
+                            mm = '0'+mm;
+                        } 
+                        date = mm + '/' + dd + '/' + yy;
+                        datesArray[i]=date;
+                        
+                        var info = Object.values(value);
+                        price=info[3];
+                        pricesArray[i]=parseFloat(price);
+                        i++;
+                    });
+                
+                    revDatesArray=datesArray.reverse();
+                    revPricesArray=pricesArray.reverse();
+                
+                    var chartSeries=[];   
+                    for (var j = 0; j < revDatesArray.length; j++) 
+                    {
+                        var utcDate = GetUtcDate(revDatesArray[j]);
+                        var pointData = [utcDate, revPricesArray[j]];
+                        chartSeries.push(pointData);
+                    }    
+
+               Highcharts.stockChart('HistoricalChart', 
+                {
+                   rangeSelector: 
+                   {
+                       buttons: [
+                        {
+                            type: 'month',
+                            count: 1,
+                            text: '1m'
+                        }, 
+                        {
+                            type: 'month',
+                            count: 3,
+                            text: '3m'
+                        },
+                        {
+                            type: 'month',
+                            count: 6,
+                            text: '6m'
+                        },
+                        {
+                            type: 'year',
+                            count: 1,
+                            text: '1y'
+                        },
+                        {
+                            type: 'all',
+                            count: 1,
+                            text: 'All'
+                        }],
+                                        
+                       selected: 0,
+                       inputEnabled: true
+                    },
+                    
+                    title: {
+                        text: symbolVal + ' Stock Value'
+                    },
+                    
+                    subtitle:
+                    {
+                        useHTML: true,
+                        text: '<a target="_blank" href="https://www.alphavantage.co/">Source: Alpha Vantage</a>'
+                    },
+                    
+                    tooltip: {
+                        enabled: true
+                    },
+                     xAxis: {
+        startOnTick: false,
+        type: 'datetime'
+    },
+                    yAxis: [{
+                        title: {
+                            text: 'Stock Value'
+                            },
+                        }],
+                    
+                    series: [{
+                        type: 'area',
+                        name: symbolVal,
+                        data: chartSeries,
+                        threshold: null,
+                        //pointInterval: 24 * 3600 * 1000 ,
+                        tooltip: {
+                            valueDecimals: 2,
+                        },
+                        fillColor: {
+                            linearGradient: {
+                                x1: 0,
+                                y1: 0,
+                                x2: 0,
+                                y2: 1
+                            },
+                            stops: [
+                                [0, 'rgba(157,192,234,0.8)'],
+                                [1, 'rgba(157,192,234,0.8)']
+                            ]
+                        },
+                    }]
+                }); 
+                }
+                catch(err)
+                {
+                    ErrorMessage('#HistoricalChart', 'Historical Chart');
+                    return;
+                }
+            },
+            error: function(xhr, status, error){
+                ErrorMessage('#HistoricalChart', 'Historical Chart');
+                return;
+            }
+        })
+        </script>
+</head>
+<body>
+    <div id="HistoricalChart">
+    </div>
+</body>
+</html>

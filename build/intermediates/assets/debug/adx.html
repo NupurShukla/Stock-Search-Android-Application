@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="http://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    
+    <script>
+        var url = $(location).attr('href');
+        var symbolIndex=url.indexOf("?s=");
+        var symbolVal=url.substring(symbolIndex+3);
+        var chart;
+        
+        function ErrorMessage(divId, dataName)
+        {
+            $(divId).empty();
+            var errorContent="<div style=\"margin-top:45%; margin-bottom:45%; text-align:center;\"><h3>Error! Failed to get " + dataName + " data.</h3></div>";
+            $(divId).append(errorContent);
+        }
+        
+        function GetUtcDate(dateIn) 
+        {
+            var dat = new Date(dateIn);
+            return Date.UTC(dat.getFullYear(), dat.getMonth(), dat.getDate());
+        }
+       
+        // ADX Charts
+        $.ajax({
+            url: 'http://myapplication-env.us-west-1.elasticbeanstalk.com',
+            data: { adxSymbol: symbolVal },
+            type: 'GET',
+            success: function(response, status, xhr){
+                var jsonObj;
+                try{
+                    jsonObj = JSON.parse(response);
+                }
+                catch(err){
+                    ErrorMessage('#adx', 'ADX');
+                    return;
+                }
+                
+                var indicator='ADX';
+                var today = new Date();
+                var datesArray=[];
+                var pricesArray=[];
+        
+                var revDatesArray=[];
+                var revPricesArray=[];
+                
+                if(jsonObj['Technical Analysis: '+indicator] == null){
+                    ErrorMessage('#adx', 'ADX');
+                return;
+                }
+                
+                try
+                {
+                var i=0;
+                $.each(jsonObj['Technical Analysis: '+indicator], function (item, value) {
+                    var dateVal=(item.split(' '))[0];
+                    
+                    var date = new Date(dateVal);
+                    var timeDiff = Math.abs(date.getTime() - today.getTime());
+                    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+                
+                    if(diffDays>181)
+                    {
+                        //do nothing
+                        //break;
+                    }
+                    else
+                    {
+                        var dd = date.getDate()+1;
+                        var mm = date.getMonth()+1; //January is 0!
+
+                        if(dd==32)
+                        {
+                            dd=1;
+                            if(mm==12)
+                            {
+                                mm=1;
+                            }
+                            else
+                            {
+                                mm=mm+1;
+                            }
+                        }
+                        
+                        if(dd<10) 
+                        {
+                            dd = '0'+dd;
+                        }
+                        if(mm<10) 
+                        {
+                            mm = '0'+mm;
+                        } 
+                        date = mm + '/' + dd;
+                        datesArray[i]=date;
+                        
+                        var info = Object.values(value);
+                        price=info[0];
+                        pricesArray[i]=parseFloat(price);
+                        i++;
+                    }
+                });
+                
+                revDatesArray=datesArray.reverse();
+                revPricesArray=pricesArray.reverse();
+                
+                var dateCount=revDatesArray.length;
+                if((dateCount-1)%5 !=0)
+                {
+                    var ind=(dateCount-1)%5;
+                    for(j=0;j<ind;j++)
+                    {
+                        revDatesArray.shift();
+                        revPricesArray.shift();
+                    }
+                }
+                
+                chart=Highcharts.chart('adx', {
+                    chart: {
+                        zoomType: 'x'
+                    },
+                    title: 
+                    {
+                        text: 'Average Directional Movement Index (ADX)'
+                    },
+                    subtitle:
+                    {
+                        useHTML: true,
+                        text: '<a target="_blank" href="https://www.alphavantage.co/">Source: Alpha Vantage</a>'
+                    },
+                    legend:
+                    {
+                        enabled: true, align: 'center', verticalAlign: 'bottom', x: 0, y: 0
+                    },
+                    xAxis:
+                    {
+                        categories: revDatesArray,
+                        tickInterval: 5,
+                    },
+                    yAxis: 
+                    {
+                        title: 
+                        {
+                            text: indicator
+                        },
+                        allowDecimals: true,
+                        tickInterval: 5
+                    },
+            
+                    series: 
+                    [{
+                        name: symbolVal,
+                        data: revPricesArray,
+                        color: 'rgb(208, 92,81 )',
+                        marker: {
+                            enabled: true,
+                            radius: 3
+                        }
+                    }],
+        
+                    plotOptions: 
+                    {
+                        series: {
+                            label: {
+                            connectorAllowed: false
+                            }
+                        }
+                    } 
+                });
+
+                var obj = {};
+                    obj.svg = chart.getSVG();
+                    obj.type = 'image/png';
+                    obj.width = 450;
+                    obj.async = true;
+
+                    $.ajax({
+                        type: 'post',
+                        url: chart.options.exporting.url,
+                        data: obj,
+                        success: function (data) {
+                        var exportUrl = this.url+data;
+                        Android.ImageUrl(exportUrl);
+                        }
+                    });
+            }
+                
+            catch(err)
+            {
+                ErrorMessage('#adx', 'ADX');
+                return;
+            }
+                
+            },
+            error: function(xhr, status, error){
+                ErrorMessage('#adx', 'ADX');
+                return;
+            }
+        })
+        </script>
+</head>
+<body>
+    <div id="rsi">
+    </div>
+</body>
+</html>

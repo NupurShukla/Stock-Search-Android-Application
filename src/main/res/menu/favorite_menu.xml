@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/question"
+        android:enabled="false"
+        android:title="Remove from Favorites?" />
+
+    <item android:id="@+id/no"
+        android:title="No" />
+
+    <item android:id="@+id/yes"
+        android:title="Yes" />
+
+</menu>

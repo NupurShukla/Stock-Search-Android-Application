@@ -1,0 +1,270 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.volley:volley:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/d9c5b16dc66fa2903aa4f1841ae169fe/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/610c9b5513d1e7840d6053cbfcff348e/AndroidManifest.xml:21:1-31:12
+MERGED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/54c1290180f810c1a5047827ea91126a/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/99c7734ff892e0925c19e5c86b46023a/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:21:1-36:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd46779a79dcae17263c92c4e54ef84f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nupur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3131355f546cec53137857210b793b6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3fb44039d78e665b3b4e05df0f14132d/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/e34ffa86b257d9333b16a0ec174c616b/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/ac0b226bc7ca963afc2a1ceefe49fb38/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:21:1-45:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/10174a06610f8979dc73c8ff731cb4fa/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/41b3acca78bbc343284a44fe01bbcc0b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/c830abdf374f230a70985caf79eea0e3/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:customtabs:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/77342fed24aea4e94270d191dbc0c010/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eba606946f414d1c37b5625fb5331997/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3048234215eb7c6bc5860593c034d8ae/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3626cfaf1bddffdaacd5e00d94cfc2a7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0d5c031d773a6c943366f423d3e17d56/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b432a58a540aead98556b2a2ac24be0d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/37e2fa50704487033289e4a0ee268960/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/974dc8694a9b45ae295ab1734f7e6d96/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad58f7f24b1c7dd88e5e384e4dde17b0/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27bdad288fadc2077818fb8c72fc67af/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:8:5-28:19
+MERGED from [com.android.volley:volley:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/d9c5b16dc66fa2903aa4f1841ae169fe/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/d9c5b16dc66fa2903aa4f1841ae169fe/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/610c9b5513d1e7840d6053cbfcff348e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/610c9b5513d1e7840d6053cbfcff348e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/54c1290180f810c1a5047827ea91126a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/54c1290180f810c1a5047827ea91126a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/99c7734ff892e0925c19e5c86b46023a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/99c7734ff892e0925c19e5c86b46023a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd46779a79dcae17263c92c4e54ef84f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd46779a79dcae17263c92c4e54ef84f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nupur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3131355f546cec53137857210b793b6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nupur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3131355f546cec53137857210b793b6/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3fb44039d78e665b3b4e05df0f14132d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3fb44039d78e665b3b4e05df0f14132d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/e34ffa86b257d9333b16a0ec174c616b/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/e34ffa86b257d9333b16a0ec174c616b/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/ac0b226bc7ca963afc2a1ceefe49fb38/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/ac0b226bc7ca963afc2a1ceefe49fb38/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:28:5-43:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/10174a06610f8979dc73c8ff731cb4fa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/10174a06610f8979dc73c8ff731cb4fa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/41b3acca78bbc343284a44fe01bbcc0b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/41b3acca78bbc343284a44fe01bbcc0b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/c830abdf374f230a70985caf79eea0e3/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/c830abdf374f230a70985caf79eea0e3/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/77342fed24aea4e94270d191dbc0c010/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/77342fed24aea4e94270d191dbc0c010/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eba606946f414d1c37b5625fb5331997/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eba606946f414d1c37b5625fb5331997/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3048234215eb7c6bc5860593c034d8ae/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3048234215eb7c6bc5860593c034d8ae/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3626cfaf1bddffdaacd5e00d94cfc2a7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3626cfaf1bddffdaacd5e00d94cfc2a7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0d5c031d773a6c943366f423d3e17d56/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0d5c031d773a6c943366f423d3e17d56/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b432a58a540aead98556b2a2ac24be0d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b432a58a540aead98556b2a2ac24be0d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/37e2fa50704487033289e4a0ee268960/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/37e2fa50704487033289e4a0ee268960/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/974dc8694a9b45ae295ab1734f7e6d96/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/974dc8694a9b45ae295ab1734f7e6d96/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad58f7f24b1c7dd88e5e384e4dde17b0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad58f7f24b1c7dd88e5e384e4dde17b0/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27bdad288fadc2077818fb8c72fc67af/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27bdad288fadc2077818fb8c72fc67af/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:14:9-52
+activity#com.example.nupur.sample.MainActivity
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.nupur.sample.StockDetailsActivity
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:22:9-25:68
+	android:label
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:24:13-65
+	android:theme
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:23:13-49
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:26:9-107
+	android:value
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:26:66-105
+	android:name
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml:26:20-65
+uses-sdk
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+MERGED from [com.android.volley:volley:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/d9c5b16dc66fa2903aa4f1841ae169fe/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/d9c5b16dc66fa2903aa4f1841ae169fe/AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/610c9b5513d1e7840d6053cbfcff348e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/610c9b5513d1e7840d6053cbfcff348e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:21:5-23:62
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/54c1290180f810c1a5047827ea91126a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/54c1290180f810c1a5047827ea91126a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/99c7734ff892e0925c19e5c86b46023a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/99c7734ff892e0925c19e5c86b46023a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd46779a79dcae17263c92c4e54ef84f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd46779a79dcae17263c92c4e54ef84f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nupur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3131355f546cec53137857210b793b6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/nupur/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c3131355f546cec53137857210b793b6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3fb44039d78e665b3b4e05df0f14132d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3fb44039d78e665b3b4e05df0f14132d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/e34ffa86b257d9333b16a0ec174c616b/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/e34ffa86b257d9333b16a0ec174c616b/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/ac0b226bc7ca963afc2a1ceefe49fb38/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/ac0b226bc7ca963afc2a1ceefe49fb38/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/10174a06610f8979dc73c8ff731cb4fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/10174a06610f8979dc73c8ff731cb4fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/41b3acca78bbc343284a44fe01bbcc0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/41b3acca78bbc343284a44fe01bbcc0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/c830abdf374f230a70985caf79eea0e3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/c830abdf374f230a70985caf79eea0e3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/77342fed24aea4e94270d191dbc0c010/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/77342fed24aea4e94270d191dbc0c010/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eba606946f414d1c37b5625fb5331997/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eba606946f414d1c37b5625fb5331997/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3048234215eb7c6bc5860593c034d8ae/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3048234215eb7c6bc5860593c034d8ae/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3626cfaf1bddffdaacd5e00d94cfc2a7/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3626cfaf1bddffdaacd5e00d94cfc2a7/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0d5c031d773a6c943366f423d3e17d56/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0d5c031d773a6c943366f423d3e17d56/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b432a58a540aead98556b2a2ac24be0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b432a58a540aead98556b2a2ac24be0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/37e2fa50704487033289e4a0ee268960/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/37e2fa50704487033289e4a0ee268960/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/974dc8694a9b45ae295ab1734f7e6d96/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/974dc8694a9b45ae295ab1734f7e6d96/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad58f7f24b1c7dd88e5e384e4dde17b0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad58f7f24b1c7dd88e5e384e4dde17b0/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27bdad288fadc2077818fb8c72fc67af/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27bdad288fadc2077818fb8c72fc67af/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nupur/AndroidStudioProjects/Sample/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd46779a79dcae17263c92c4e54ef84f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd46779a79dcae17263c92c4e54ef84f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/10174a06610f8979dc73c8ff731cb4fa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/10174a06610f8979dc73c8ff731cb4fa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/41b3acca78bbc343284a44fe01bbcc0b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/41b3acca78bbc343284a44fe01bbcc0b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/77342fed24aea4e94270d191dbc0c010/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] /Users/nupur/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/77342fed24aea4e94270d191dbc0c010/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eba606946f414d1c37b5625fb5331997/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eba606946f414d1c37b5625fb5331997/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3048234215eb7c6bc5860593c034d8ae/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3048234215eb7c6bc5860593c034d8ae/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3626cfaf1bddffdaacd5e00d94cfc2a7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3626cfaf1bddffdaacd5e00d94cfc2a7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0d5c031d773a6c943366f423d3e17d56/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/0d5c031d773a6c943366f423d3e17d56/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b432a58a540aead98556b2a2ac24be0d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b432a58a540aead98556b2a2ac24be0d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/37e2fa50704487033289e4a0ee268960/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/37e2fa50704487033289e4a0ee268960/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/974dc8694a9b45ae295ab1734f7e6d96/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/974dc8694a9b45ae295ab1734f7e6d96/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad58f7f24b1c7dd88e5e384e4dde17b0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/ad58f7f24b1c7dd88e5e384e4dde17b0/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e68b97b9c84ca2210ad89d8b3d3a1dbe/AndroidManifest.xml:27:13-51
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/ea94601e95dcd86a09b550b51129be63/AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/eec464f4e6c40e5b19e3e1503e0d3a53/AndroidManifest.xml:40:13-70
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27bdad288fadc2077818fb8c72fc67af/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27bdad288fadc2077818fb8c72fc67af/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/nupur/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27bdad288fadc2077818fb8c72fc67af/AndroidManifest.xml:26:13-58
